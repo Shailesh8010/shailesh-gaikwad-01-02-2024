@@ -1,0 +1,272 @@
+
+h2{
+     font-family: dayana Italic;
+}
+.hero-section {
+  padding-top: 100px;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+}
+
+.footer-section {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+.footer-section p {
+  margin-bottom: 0;
+}
+
+/* footer */
+html {
+  position: relative;
+  min-height: 100%;
+  font-family: "Philosopher-regular";
+}
+
+body {
+  margin: 0; 
+  padding: 0 0 100px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Philosopher-regular";
+ 
+}
+
+main {
+  flex: 1 0 auto; 
+}
+
+/* side download brochure */
+.enquire_floating {
+  background: #6e5e31;
+  position: fixed;
+  top: 35%;
+  right: 0px;
+  color: #fff;
+  font-size: 17px;
+  z-index: 3;
+  cursor: pointer;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* home.css */
+
+/* Sticky Navbar */
+.navbar {
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  /* min-height: 50px; */
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.7);
+  height: 88px;
+  background-color: #fff;
+  /* Ensure it's above other content */
+}
+
+.container {
+  height: 100px;
+}
+
+.navbar-brand {
+  float: left;
+  height: 100px;
+  font-size: 18px;
+  line-height: 20px;
+  margin-top: 5px;
+}
+.navbar-collapse {
+  margin-left: 37%;
+}
+
+.navbar-collapse ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.navbar-collapse ul li a {
+  color: #000000;
+  width: 100px;
+  font-size: 19px;
+}
+
+.navbar-collapse ul li p {
+  display: flex;
+  flex-direction: row;
+  line-height: 5px;
+}
+
+/* Sticky Footer */
+.sticky-footer {
+  position: fixed;
+  height: 60px;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 0;
+  z-index: 1000; 
+  box-shadow: 0 0 3px 1px rgb(0 0 0 / 70%);
+}
+
+.sticky-footer .container_f {
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 13px 100px;
+  width: 100%;
+}
+
+.enquire_f {
+  margin-right: 100px;
+}
+
+.sticky-footer .form_f {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sticky-footer input,
+.sticky-footer button {
+  padding: 6px;
+  margin-right: 30px;
+  border: none;
+  border-radius: 5px;
+}
+#floor{
+  width: 1520px;
+  height: 30px;
+  text-transform: uppercase;
+  color: #133a1f;
+  text-align: center;
+  margin: 20px 0px 40px;
+}
+
+#row-floor{
+  width: 1520px;
+  height: 366px;
+}
+#location-map{
+  width: 1520px;
+  height: 977px;
+  text-transform: uppercase;
+  color: #133a1f;
+  text-align: center;
+  margin: 400px 0px 0px;
+
+}
+#loc-para{
+  width: 1140px;
+  height: 45px;
+  margin: 0px 0px 16px;
+  text-transform: initial;
+  text-align: center;
+  margin-left: 200px;
+  
+}
+
+#floor-image{
+  
+  height: 366px;
+  width: 730px;
+  align-items: center;
+  margin-left: 450px;
+}
+
+.sticky-footer input[type="text"],
+.sticky-footer input[type="tel"],
+.sticky-footer input[type="email"] {
+  width: 270px;
+  border: solid black 1px;
+}
+
+.sticky-footer button {
+  background-color: #6e5e31;
+  color: #fff;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.sticky-footer button:hover {
+  background-color: #0056b3;
+}
+
+/* banner */
+.container_banner {
+  width: 100%;
+  min-height: 50px;
+  margin-top: -100px;
+  overflow: hidden;
+}
+
+
+/* about */
+.about_sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    height: 175vh;
+    padding-bottom: 100px;
+    margin-bottom: 250px;
+}
+
+.about1,.about2{
+        background-position: center;
+        background-size: cover;
+        display: block;
+        position:inherit;
+        }
+
+.about2 .sec_2_images{
+    display: flex;
+    flex-direction: row;
+}
+
+ 
+   
+    .top-left1{
+    position: absolute;
+     top: 0px;
+     left: 20px;
+     background: #133a1f;
+     border-radius: 10px;
+     padding: 3px 13px;
+     color: #fff;
+ }
+
+
+        /* gallary */
+        .gallary_sec{
+            width: 100%;
+            height: 60vh;
+            display: flex;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+        }
+        .gallary_sec .container_g{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+      

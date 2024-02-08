@@ -1,0 +1,63 @@
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #6e5e312b;
+    position: relative;
+}
+
+.heading1 {
+    position: absolute;
+    font-size: 40px;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+}
+
+.project-card1 {
+    width: 560px;
+    height: 330px;
+    padding: 27px;
+    margin: 0 25px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.project-card1 img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Different class names for each project card */
+.project-card-1,
+.project-card-2,
+.project-card-3 {
+    /* Additional styling specific to project cards if needed */
+}
+
+@media screen and (max-width: 768px) {
+    .container1 {
+        flex-direction: column;
+    }
+
+    .project-card1 {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .heading1 {
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
